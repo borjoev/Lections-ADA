@@ -1,0 +1,6 @@
+time = 21
+if time < 10:
+print("good morning!")
+elif time < 20
+print("good day!")
+else

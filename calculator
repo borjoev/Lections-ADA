@@ -1,0 +1,43 @@
+num1 = int(input('введите первое число:'))
+num2 = int(input('введите второе число:'))
+operators = input('выберите один из следующих +-*/%**//:')
+while True:
+    a = input('хотите продолжить?')
+    ans = 'yes' or 'no'
+    if ans == 'yes':
+        
+    if operators == '+':
+        ans = num1 + num2
+        print(ans)
+
+
+    elif operators == '-':
+        ans = num1 - num2
+        print(ans)
+        break
+
+    elif operators == '*':
+        ans = num1 * num2
+        print(ans)
+        break
+
+    elif operators == '/':
+        ans = num1 / num2
+        print(ans)
+        break
+
+    elif operators == '%':
+        ans = num1 % num2
+        print(ans)
+        break
+
+    elif operators == '**':
+        ans = num1 - num2
+        print(ans)
+        break
+
+    elif operators == '//':
+        ans = num1 // num2
+        print(ans)
+        break
+
